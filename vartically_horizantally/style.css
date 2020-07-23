@@ -1,0 +1,47 @@
+section{
+    background-color: gray;
+    height: 400px;
+    width: 600px;
+    margin-top: 60px;
+}
+.box_1{
+    height: 150px;
+    width: 150px;
+    background: greenyellow;
+}
+
+
+/* vertically & horizantally center nite */
+.box_1{
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+
+
+    /* transform work */
+    
+    /* transform: rotate(); */
+    /* transform: rotate3d(); */
+    /* transform: rotateZ(); */
+    /* transform: scale(); */
+    /* transform: skew(); */
+    /* transform: translate3d(); */
+}
+
+
+
+
+
+
+/* box 2 er jonnp */
+.box_2{
+    height: 150px;
+    width: 150px;
+    background: blueviolet;
+}
+/*  vertically & horizantally center nite */ 
+.example_02{
+    display: flex;
+    justify-content:center;
+    align-items :center;
+}
+

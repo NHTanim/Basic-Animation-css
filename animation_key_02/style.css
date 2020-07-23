@@ -1,0 +1,33 @@
+img{
+    animation-name: drive;
+    animation-duration: 12s;
+    position: relative;
+
+    /* __animation-delay: 2s;__ mane animtion ti koto sym pore cholte suro korbe */
+    animation-delay: 2s;
+
+    /* __ animation-direction: reverse;__ mane holo ulta back korbe */
+    /* animation-direction: reverse; */
+    
+
+    /* __animation-timing-function:__ mane slow start hobe end hobe speed e */
+    /* animation-timing-function: ease; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-timing-function: ease-out; */
+    /* animation-timing-function: linear; */
+    animation-timing-function: ease-in;
+
+
+
+    /* koto bar animation ti cholbe ei khane 3br cholbe */
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 3;
+}s
+@keyframes drive{
+    from{
+        left: 0px;
+    }
+    to{
+      left: 900px;
+    }
+}

@@ -1,0 +1,15 @@
+
+
+
+/* child serial thik e thakbe sudo p e serial e hobe na */
+p:nth-child(9){
+    color: darkblue;
+    font-size: 40px;
+}
+h3:nth-child(1){
+    color: darkmagenta;
+}
+h6:nth-child(13){
+    font-size: 25px;
+    color: deeppink;
+}

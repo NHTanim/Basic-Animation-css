@@ -1,0 +1,23 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+button{
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: none;
+    background-color: blueviolet;
+}
+
+/* style ja ja essa deya jabe */
+button:hover{
+    height: 80px;
+    width: 200px;
+    font-size: 30px;
+    background-color: burlywood;
+    color: #fff;
+}

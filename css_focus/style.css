@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+form p{
+   font-size: 25px;
+   color: cornflowerblue;
+}
+form input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+
+
+/* __focus__ ati hover er moto e kaj kore bt ati click korar pore kaj kore */
+/* hover e mouce point nile e kaj kore */
+form input:focus{
+    height: 40px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: gray;
+}
